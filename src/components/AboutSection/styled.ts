@@ -24,7 +24,7 @@ export const Section = styled.section`
   ::before {
     content: "";
     position: absolute;
-    background: #f0f0f0;
+    background: ${(props) => props.theme.colors.gray[50]};
     left: 0;
     z-index: -1;
     height: 955px;
@@ -61,6 +61,7 @@ export const Container = styled.div`
 export const BlueContainer = styled.div`
   background: #003c82;
   padding: 50px 20px 86px 20px;
+  color: ${(props) => props.theme.colors.white};
 
   @media (min-width: 768px) {
     padding: 70px 40px 257px;
@@ -82,7 +83,7 @@ export const About = styled.h2`
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  color: #fff;
+
   text-transform: uppercase;
 
   @media (min-width: 1680px) {
@@ -95,7 +96,6 @@ export const Description = styled.p`
   font-size: 32px;
   font-weight: 400;
   line-height: 36px;
-  color: #fff;
   margin-top: 30px;
   width: 228px;
 
@@ -130,7 +130,7 @@ export const Paragraphe = styled.p`
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
+  color: ${(props) => props.theme.colors.white};
   background: #1996c3;
   padding: 50px 20px;
 

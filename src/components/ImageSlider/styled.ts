@@ -31,7 +31,7 @@ export const Window = styled.div`
   height: 215px;
   position: absolute;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: ${(props) => props.theme.colors.white};
   overflow: hidden;
 
   @media (min-width: 1680px) {
@@ -129,6 +129,6 @@ export const ImgBottom = styled.div`
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #e76ece;
+    background: ${(props) => props.theme.colors.primary[300]};
   }
 `;

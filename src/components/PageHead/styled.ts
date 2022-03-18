@@ -52,7 +52,7 @@ export const Values = styled.p`
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  color: #e76ece;
+  color: ${(props) => props.theme.colors.primary[300]};
   text-transform: uppercase;
   margin: 40px 0 20px;
   width: 260px;

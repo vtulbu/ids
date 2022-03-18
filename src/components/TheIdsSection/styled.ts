@@ -8,7 +8,7 @@ export const Section = styled.section`
     content: "";
     position: absolute;
     z-index: -1;
-    background: #f0f0f0;
+    background: ${(props) => props.theme.colors.gray[50]};
     left: 0;
     margin-top: -20px;
     height: 731px;
@@ -44,6 +44,7 @@ export const Section = styled.section`
 export const RedBox = styled.div`
   background: #d84e30;
   padding: 50px 3.75vw;
+  color: ${(props) => props.theme.colors.white};
 
   @media (min-width: 768px) {
     padding: 60px;
@@ -73,7 +74,6 @@ export const Title = styled.h3`
   font-style: italic;
   font-weight: 400;
   line-height: 36px;
-  color: #fff;
   margin-bottom: 20px;
 
   @media (min-width: 1680px) {
@@ -87,7 +87,6 @@ export const Paragraphe = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
 
   @media (min-width: 1680px) {
     font-size: 20px;

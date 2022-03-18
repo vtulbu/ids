@@ -9,8 +9,8 @@ export const StyledHeadroom = styled(Headroom)`
     left: 0;
     right: 0;
     z-index: 1200;
-    background-color: #fff;
-    border-bottom: 1px solid #f0f0f0;
+    background-color: ${(props) => props.theme.colors.white};
+    border-bottom: 1px solid ${(props) => props.theme.colors.gray[50]};
   }
   .headroom--unfixed {
     position: relative;

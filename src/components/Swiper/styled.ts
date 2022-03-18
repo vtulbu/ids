@@ -43,7 +43,7 @@ export const SwiperBtn = styled.button`
   font-style: italic;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
+  color: ${(props) => props.theme.colors.white};
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -55,7 +55,7 @@ export const SwiperBtn = styled.button`
 
   &.clicked {
     &::before {
-      background-color: #e76ece;
+      background-color: ${(props) => props.theme.colors.primary[300]};
       animation: pulse-btn 2s infinite;
     }
   }
@@ -65,7 +65,7 @@ export const SwiperBtn = styled.button`
     height: 11px;
     width: 11px;
     border-radius: 50%;
-    background: #fff;
+    background: ${(props) => props.theme.colors.white};
     position: absolute;
     margin-bottom: 33px;
     transition: all 200ms linear;

@@ -1,4 +1,5 @@
 import { fluidValue } from "@/utils/Mixins/fluidValue";
+import { theme } from "@/utils/theme/theme";
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -92,6 +93,7 @@ export const GreenSquare = styled.div`
   margin-top: -100px;
   padding: 50px 88px 50px 20px;
   width: 100%;
+  color: ${(props) => props.theme.colors.white};
 
   @media (min-width: 768px) {
     padding: 50px 46px 243px;
@@ -106,7 +108,6 @@ export const Name = styled.h3`
   font-size: 20px;
   font-style: italic;
   line-height: 24px;
-  color: #fff;
   font-weight: 600;
 
   @media (min-width: 1680px) {
@@ -119,7 +120,6 @@ export const Name = styled.h3`
 export const Message = styled.p`
   font-style: italic;
   line-height: 24px;
-  color: #fff;
   margin: 10px 0 20px;
 
   @media (min-width: 768px) {
@@ -136,7 +136,8 @@ export const Message = styled.p`
 
 export const Email = styled.a`
   line-height: 24px;
-  color: #fff;
+  color: ${(props) => props.theme.colors.white};
+
   :hover {
     color: #d9d9d9;
   }

@@ -5,11 +5,11 @@ export const Button = styled.a`
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
-  color: #fff;
+  color: ${(props) => props.theme.colors.white};
   text-transform: uppercase;
   text-align: center;
   transition: background-color 0.2s ease-out;
-  background-color: #e76ece;
+  background-color: ${(props) => props.theme.colors.primary[300]};
   cursor: pointer;
   white-space: nowrap;
 

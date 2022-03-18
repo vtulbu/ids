@@ -171,7 +171,7 @@ export const RotatingCircle = styled.div`
     position: absolute;
     align-self: flex-end;
     margin-bottom: -6px;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.colors.white};
     animation: rotating-circle 16s linear infinite forwards;
     transform-origin: 50% -123px;
 

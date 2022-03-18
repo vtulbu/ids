@@ -56,7 +56,7 @@ export const Button = styled.button<Props>`
     position: absolute;
     width: 16px;
     height: 2px;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.colors.white};
 
     @media (min-width: 768px) {
       width: 18px;
@@ -68,7 +68,7 @@ export const Button = styled.button<Props>`
     position: absolute;
     width: 2px;
     height: 16px;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.colors.white};
     transition: transform 0.2s linear;
     transform: ${(props) =>
       props.clickBtn ? "rotate(90deg)" : "rotate(0deg)"};

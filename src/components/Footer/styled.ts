@@ -31,6 +31,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: ${(props) => props.theme.colors.white};
 
   &.secondBox {
     margin-top: 64px;
@@ -44,7 +45,6 @@ export const Content = styled.div`
 export const Title = styled.h3`
   font-size: 28px;
   line-height: 36px;
-  color: #fff;
   font-weight: 500;
   margin-bottom: 20px;
 
@@ -71,7 +71,6 @@ export const Paragraphe = styled.p`
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1.12px;
-  color: #fff;
   margin-bottom: 40px;
 
   &.secondBox {
@@ -92,6 +91,5 @@ export const CopyRight = styled.span`
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  color: #fff;
   display: block;
 `;

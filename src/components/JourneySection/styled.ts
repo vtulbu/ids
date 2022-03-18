@@ -4,7 +4,7 @@ import { fluidValue } from "@/utils/Mixins/fluidValue";
 
 export const Section = styled.section`
   background: #266299 url(/images/knowledge-bg.svg) 50%/100% 70% no-repeat;
-  color: #fff;
+  color: ${(props) => props.theme.colors.white};
   width: 100%;
   display: flex;
   justify-content: center;
@@ -138,7 +138,7 @@ export const Year = styled.div`
     width: 11px;
     right: 3.75vw;
     border-radius: 50%;
-    background: #e76ece;
+    background: ${(props) => props.theme.colors.primary[300]};
 
     @media (min-width: 768px) {
       display: none;

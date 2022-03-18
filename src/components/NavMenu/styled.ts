@@ -18,7 +18,7 @@ export const Container = styled.div<Props>`
   padding: 30px 12px;
   opacity: ${(props) => (props.visible ? "1" : "0")};
   transition: all 600ms cubic-bezier(0.4, 0, 0.49, 1);
-  background-color: #fff;
+  background-color: ${(props) => props.theme.colors.white};
   z-index: -1;
 
   @media (min-width: 768px) {
@@ -40,7 +40,7 @@ export const Container = styled.div<Props>`
 `;
 
 export const Nav = styled.nav`
-  background-color: #fff;
+  background-color: ${(props) => props.theme.colors.white};
   display: flex;
   flex-direction: column;
 
@@ -81,7 +81,7 @@ export const Link = styled.a`
   }
 
   &:hover {
-    color: #e76ece;
+    color: ${(props) => props.theme.colors.primary[300]};
   }
 
   & + a {
