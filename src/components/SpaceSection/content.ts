@@ -1,0 +1,28 @@
+export const content = {
+  class: [
+    "circle1",
+    "circle2",
+    "circle3",
+    "circle4",
+    "circle5",
+    "circle3",
+    "circle1",
+    "circle2",
+    "circle5",
+    "circle4",
+    " ",
+  ],
+  images: [
+    "icon-counter-education-and-training.svg",
+    "icon-counter-energy.svg",
+    "icon-counter-environment.svg",
+    "icon-counter-finance.svg",
+    "icon-counter-health.svg",
+    "icon-counter-hpublic-sector.svg",
+    "icon-counter-htransport.svg",
+    "icon-counter-hurban-development.svg",
+    "icon-counter-hwater.svg",
+    "icon-counter-multi-sector.svg",
+    "icon-counter-agriculture.svg",
+  ],
+};
