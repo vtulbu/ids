@@ -91,9 +91,10 @@ export const ImageBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  max-width: 400px;
 
   @media (min-width: 1680px) {
     width: 574px;
+    max-width: none;
   }
 `;
