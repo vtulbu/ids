@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 50px 3.75vw;
-  width: 1000px;
 
   @media (min-width: 768px) {
     display: flex;

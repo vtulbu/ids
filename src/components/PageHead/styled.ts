@@ -91,7 +91,7 @@ export const ImageBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 320px;
+  width: 400px;
 
   @media (min-width: 1680px) {
     width: 574px;

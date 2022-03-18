@@ -76,10 +76,6 @@ export const Button = styled.button<Props>`
     @media (min-width: 768px) {
       height: 18px;
     }
-
-    @media (min-width: 1680px) {
-      width: 3px;
-    }
   }
 `;
 
