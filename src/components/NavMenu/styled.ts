@@ -37,6 +37,7 @@ export const Container = styled.div<Props>`
     padding: 0;
     opacity: 1;
     min-height: 0;
+    overflow: visible;
   }
 `;
 
