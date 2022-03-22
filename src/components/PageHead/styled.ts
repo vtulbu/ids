@@ -11,7 +11,7 @@ export const PageHead = styled.div`
   @media (min-width: 768px) {
     flex-direction: row;
     column-gap: 40px;
-    padding: 45px 0 95px;
+    padding: 45px 36px 95px;
   }
 
   ${fluidValue("width", 975, 696, 1679, 1200)}

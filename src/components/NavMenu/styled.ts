@@ -20,6 +20,7 @@ export const Container = styled.div<Props>`
   transition: all 600ms cubic-bezier(0.4, 0, 0.49, 1);
   background-color: ${(props) => props.theme.colors.white};
   z-index: -1;
+  overflow: scroll;
 
   @media (min-width: 768px) {
     padding: 50px 36px;

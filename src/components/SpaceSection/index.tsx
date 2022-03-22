@@ -48,6 +48,7 @@ export const SpaceSection: FC = () => {
               alt="icons"
               layout="fill"
               objectFit="contain"
+              priority
             />
           </S.InnerCircle>
         </S.RotatingCircle>
